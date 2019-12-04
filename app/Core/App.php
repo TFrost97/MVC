@@ -1,6 +1,6 @@
 <?php 
 
-class Router 
+class App 
 {
     protected $controller = 'Home';
     protected $method = 'index';
@@ -50,8 +50,17 @@ class Router
     }
 
     public function getController() {
-        require_once __DIR__ . '/../Controllers/' . $this->controller . '.php';
-        new $this->controller($this->method, $this->params);
+        if(file_exists(__DIR__ . '/../Controllers/' . $this->controller . '.php')){
+            require_once __DIR__ . '/../Controllers/' . $this->controller . '.php';
+            new $this->controller($this->method, $this->params);
+        } else {
+            $this->controller = 'Errors';
+            require_once __DIR__ . '/../Controllers/' . $this->controller . '.php';
+            new $this->controller();
+
+
+        }
+
     }
 
     public function eho() {

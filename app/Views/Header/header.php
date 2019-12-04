@@ -6,11 +6,15 @@
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="main.js"></script>
 </head>
 <body>
 <br>
-    jestem panem HTML 
+<h1>HEADER HTML</h1>
 <br>
+    <div class="content">
+    </div>
+
 </body>
 </html>

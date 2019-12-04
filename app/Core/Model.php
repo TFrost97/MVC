@@ -16,7 +16,6 @@ class Model extends Db
                 echo ($e);
                 exit("Database error.");
             }
-            echo " pdo work  ";
 
         // var_dump($this->select());
     }
