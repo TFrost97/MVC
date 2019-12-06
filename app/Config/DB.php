@@ -5,7 +5,7 @@ class DB
     protected function __construct()
     {
 
-        echo "db";
+        // echo "db";
         $this->test = 'test';
         // db host
         $this->dbParams = array(

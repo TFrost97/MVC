@@ -22,7 +22,7 @@ class Model extends Db
 
     public function select($from = 'auta', $what = "*") {
         // var_dump($this->connection);
-        echo ('im in select');
+        // echo ('im in select');
         $query = $this->connection->query("SELECT " . $what . " FROM " . $from);
         // $query = $this->connection->query("SELECT * FROM auta");
 

@@ -14,7 +14,6 @@
 <h1>HEADER HTML</h1>
 <br>
     <div class="content">
-    </div>
+        <?php var_dump($data);?>
 
-</body>
-</html>
+

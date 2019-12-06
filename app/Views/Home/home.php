@@ -1,3 +1,3 @@
 
 <h1>WIDOK HOME</h1>
-<li>bbbb</li>
+<li><?php var_dump($data) ?> </li>
