@@ -1,0 +1,32 @@
+{
+  "name": "mvc",
+  "version": "1.0.0",
+  "description": "My first custom MVC from scratch",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode=development",
+    "build": "webpack --mode=production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TFrost97/MVC.git"
+  },
+  "author": "Tomasz Mróz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TFrost97/MVC/issues"
+  },
+  "homepage": "https://github.com/TFrost97/MVC#readme",
+  "devDependencies": {
+    "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.3.2",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}

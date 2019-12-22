@@ -28,7 +28,7 @@ class Model extends Db
 
         // var_dump($query);
         $items = $query->fetchAll(PDO::FETCH_NUM);
-        return $items;
+        return json_encode($items);
 
     }
 }
