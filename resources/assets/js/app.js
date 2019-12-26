@@ -1,4 +1,4 @@
-import '../scss/test.scss';
+import '../scss/main.scss';
 
 export var test = 'test';
 console.log('Test1074');

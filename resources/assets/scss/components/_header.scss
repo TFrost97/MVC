@@ -1,0 +1,25 @@
+.header {
+    position: relative;
+    background-color: $primary;
+
+    margin-bottom: 4rem;
+    box-shadow: 1px 7px 9px 1px rgba(0,0,0,0.28)
+}
+
+// style in future
+.header__bg {
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: .2;
+}
+
+.header__text {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    color: $white;
+
+    width: 100%;
+
+}

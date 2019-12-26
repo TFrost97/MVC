@@ -1,0 +1,44 @@
+body {
+    background-color: $body-bg;
+}
+
+.nav {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    padding: .5rem;
+    margin: 0;
+
+    color: $primary;
+    background-color: $component-bg;
+
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    -webkit-box-shadow: 0px 9px 29px 1px rgba(0,0,0,0.47);
+    -moz-box-shadow: 0px 9px 29px 1px rgba(0,0,0,0.47);
+    box-shadow: 0px 9px 29px 1px rgba(0,0,0,0.47);
+}
+
+.nav__list {
+    font-size: 2rem;
+    flex-basis: 40%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav__item {
+    font-size: 1.7rem;
+}
+
+.nav__logo {
+    font-size: 2rem;
+    flex-basis: 20%;
+    &-temporary {
+        color: $warning;
+    }
+}
